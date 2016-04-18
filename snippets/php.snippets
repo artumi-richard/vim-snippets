@@ -721,6 +721,27 @@ snippet arfimagethumb
 		'Type'=>'Text','Size'=>'10','Caption'=>'$2 Thumb Code',
 	),
 	${0}
+snippet arfdate
+	'${1:fieldname}'=>array(
+		'Type'=>'Date','Caption'=>'${2:Caption}',
+		'EditPos'=>10,
+		'AddPos'=>10,
+	),
+	${0}
+snippet arfdatetime
+	'${1:fieldname}'=>array(
+		'Type'=>'DateTime','Caption'=>'${2:Caption}',
+		'EditPos'=>10,
+		'AddPos'=>10,
+	),
+	${0}
+snippet arfts
+	'${1:fieldname}'=>array(
+		'Type'=>'DateTime','Caption'=>'${2:Caption}',
+		'EditPos'=>10,
+		'AddPos'=>10,
+	),
+	${0}
 snippet arffile
 	'${1:fieldname}'=>array(
 		'Type'=>'File','Caption'=>'${2:Caption}','Size'=>100,'CodeField'=>'$1code','UploadDir'=>'uploads/${3:Dir}/','AltField'=>'${4:Alt}',
